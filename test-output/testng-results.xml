@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-25T09:28:08 PDT" name="Default suite" finished-at="2023-06-25T09:28:58 PDT" duration-ms="50012">
+    <groups>
+    </groups>
+    <test started-at="2023-06-25T09:28:08 PDT" name="Default test" finished-at="2023-06-25T09:28:58 PDT" duration-ms="50012">
+      <class name="com.test.tests.TekarchApiTestScriptE2E">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.test.tests.TekarchApiTestScriptE2E@76ba13c]" started-at="2023-06-25T09:28:08 PDT" name="init" finished-at="2023-06-25T09:28:09 PDT" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validLogin()[pri:0, instance:com.test.tests.TekarchApiTestScriptE2E@76ba13c]" started-at="2023-06-25T09:28:09 PDT" name="validLogin" finished-at="2023-06-25T09:28:13 PDT" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="createUserData()[pri:0, instance:com.test.tests.TekarchApiTestScriptE2E@76ba13c]" started-at="2023-06-25T09:28:13 PDT" name="createUserData" finished-at="2023-06-25T09:28:14 PDT" depends-on-methods="com.test.tests.TekarchApiTestScriptE2E.validLogin" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserData -->
+        <test-method signature="getuserData()[pri:0, instance:com.test.tests.TekarchApiTestScriptE2E@76ba13c]" started-at="2023-06-25T09:28:14 PDT" name="getuserData" finished-at="2023-06-25T09:28:28 PDT" depends-on-methods="com.test.tests.TekarchApiTestScriptE2E.createUserData" duration-ms="14023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuserData -->
+        <test-method signature="updateuserData()[pri:0, instance:com.test.tests.TekarchApiTestScriptE2E@76ba13c]" started-at="2023-06-25T09:28:28 PDT" name="updateuserData" finished-at="2023-06-25T09:28:43 PDT" depends-on-methods="com.test.tests.TekarchApiTestScriptE2E.getuserData" duration-ms="15014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuserData -->
+        <test-method signature="deleteuserData()[pri:0, instance:com.test.tests.TekarchApiTestScriptE2E@76ba13c]" started-at="2023-06-25T09:28:43 PDT" name="deleteuserData" finished-at="2023-06-25T09:28:58 PDT" depends-on-methods="com.test.tests.TekarchApiTestScriptE2E.updateuserData" duration-ms="15462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuserData -->
+      </class> <!-- com.test.tests.TekarchApiTestScriptE2E -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

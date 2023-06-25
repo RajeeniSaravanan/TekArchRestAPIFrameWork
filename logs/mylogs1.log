@@ -1,0 +1,26 @@
+20230625 09:28:09 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java30 - Begin tekarchApi_Login
+20230625 09:28:13 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java38 - Token is xpPh5A1wELMJx4TfbPN9lg9UWOhYh1BXLFAy7OzmrzzKPWUIGFAKP8dF6hUt7G9x4iJMiUNKGVyqof2HOCJhIDxXZdOW8B8P0E4Z
+20230625 09:28:13 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java39 - End tekarchApi_Login
+20230625 09:28:13 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java45 - Begin tekarchApi_CreateUser
+20230625 09:28:14 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java53 - Create user Schema validated
+20230625 09:28:14 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java57 - Status message validated
+20230625 09:28:14 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java59 - End tekarchApi_CreateUser
+20230625 09:28:14 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java65 - Begin tekarchApi_getUser
+20230625 09:28:27 INFO  [main] helpers.UserServiceBase UserServiceBase.java113 - GetUser Schema validated
+20230625 09:28:28 INFO  [main] helpers.UserServiceBase UserServiceBase.java114 - Number of records = 9190
+20230625 09:28:28 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java70 - First account number = VV-NOV1234
+20230625 09:28:28 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java71 - End tekarchApi_getUser
+20230625 09:28:28 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java77 - Begin tekarchApi_updateUser
+20230625 09:28:40 INFO  [main] helpers.UserServiceBase UserServiceBase.java113 - GetUser Schema validated
+20230625 09:28:41 INFO  [main] helpers.UserServiceBase UserServiceBase.java114 - Number of records = 9190
+20230625 09:28:43 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java85 - Update User Schema validated
+20230625 09:28:43 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java86 - Data is updated
+20230625 09:28:43 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java90 - Status message validated
+20230625 09:28:43 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java92 - End tekarchApi_updateUser
+20230625 09:28:43 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java98 - Begin tekarchApi_deleteUser
+20230625 09:28:55 INFO  [main] helpers.UserServiceBase UserServiceBase.java113 - GetUser Schema validated
+20230625 09:28:56 INFO  [main] helpers.UserServiceBase UserServiceBase.java114 - Number of records = 9190
+20230625 09:28:58 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java106 - Delete User Schema validated
+20230625 09:28:58 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java107 - Deleted successfully
+20230625 09:28:58 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java111 - Status message validated
+20230625 09:28:58 INFO  [main] tests.TekarchApiTestScriptE2E TekarchApiTestScriptE2E.java113 - End tekarchApi_deleteUser
